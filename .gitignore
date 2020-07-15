@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+.prrettierc.json
+.prettierrc
+.prrettierc.json
+.prrettierc.json
+*.json
+.prrettierc.json

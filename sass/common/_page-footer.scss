@@ -1,0 +1,202 @@
+
+
+footer {    
+    background-color: #2F303A;
+}
+            
+             /* footer container */
+.footer-flex {
+     display: flex;
+}
+             /* address container */
+.address {
+    margin-top: 45px;
+
+    &-text {
+    margin-bottom: 9px;
+    min-width: 220px;
+                                        
+    color: $primary-white-color;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+} }
+                               
+.mail-footer {
+    display: inline-block;
+    margin-bottom: 9px;
+}
+                                        
+.phon-footer {
+    display: inline-block;
+    margin-bottom: 28px;
+}
+                                        
+.contact-footer .link-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+      
+            /* social container */
+.social {
+    justify-content: left;
+                                        
+    margin-top: 57px;
+    margin-left: 68px;
+
+    &-contact {
+    display: inline-block;
+    margin-bottom: 20px;
+                                        
+    color: $primary-white-color;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+    &-list {
+    display: flex;
+} }
+
+.icon-footer:not(:first-child) {
+    margin-left: 10px;
+}
+
+.icon-social {
+    padding: 0;
+    margin: 0;
+    
+    height: 20px;
+    width: 20px;
+}
+                                        
+.social-link-second {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+                                        
+    padding: 0;
+    margin: 0;
+                                        
+    height: 44px;
+    width: 44px;
+                                        
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover,
+    &:focus {
+    background-color: $accent-color;
+    outline: transparent;
+    } 
+    &:hover,
+    &:focus .icon-social {
+    --color3: #ffffff;
+    outline: transparent;
+} }
+                                      
+            /* subscriber container */
+.subscribe {
+    margin-top: 57px;
+    margin-left: 90px;
+    &-contact {
+    display: inline-block;
+    margin-bottom: 20px;
+                                            
+    color: $primary-white-color;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
+} }
+                                        
+.footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-input {
+    width: 355px;
+                                        
+    padding: 15px 16px;
+                                               
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+                                            
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+                                            
+    align-items: center;
+    letter-spacing: 0.03em;
+                                        
+    background: #2F303A;
+                                            
+    color: rgba(255, 255, 255, 0.6);
+} }
+                                        
+.icon-send {
+    height: 24px;
+    width: 24px;
+                                        
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+.button-footer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: left;
+                                        
+    height: 50px;
+    width: 220px;
+                                           
+    margin-left: 12px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+                                                
+    border-radius: 4px;    
+                                        
+    color: $primary-white-color;
+    background-color: $accent-color;
+                                        
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+                                        
+                /* copy container */
+.cont-flex {
+    padding-top: 18px;
+    padding-bottom: 21px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    &-copy {
+    margin-bottom: 0;
+                                        
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 0.03em;
+} }
+                                        
+
+                                        
+                                        
