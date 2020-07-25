@@ -1,0 +1,107 @@
+    /* section - company partners */
+
+.company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    &-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+        
+    height: 90px;
+    width: 170px;
+        
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    .icon-company{
+    fill: #AFB1B8;
+    }
+    &:hover,
+    &:focus {
+    border: 1px solid $accent-color;
+    border-radius: 4px;
+    outline: transparent;
+    }
+    &:hover,
+    &:focus .icon-company {
+    --color3: #2196F3;
+    outline: transparent;
+} } 
+
+@media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    // .item:not(:first-child) {
+    // margin-left: 30px;
+    // }
+    &-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+        
+    height: 90px;
+    width: 170px;
+        
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    .icon-company{
+    fill: #AFB1B8;
+    }
+    &:hover,
+    &:focus {
+    border: 1px solid $accent-color;
+    border-radius: 4px;
+    outline: transparent;
+    }
+    &:hover,
+    &:focus .icon-company {
+    --color3: #2196F3;
+    outline: transparent;
+} } }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        justify-content: space-around;
+    
+        .item:not(:first-child) {
+        margin-left: 30px;
+        }
+        &-link {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+            
+        height: 90px;
+        width: 170px;
+            
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+    
+        .icon-company{
+        fill: #AFB1B8;
+        }
+        &:hover,
+        &:focus {
+        border: 1px solid $accent-color;
+        border-radius: 4px;
+        outline: transparent;
+        }
+        &:hover,
+        &:focus .icon-company {
+        --color3: #2196F3;
+        outline: transparent;
+    } } 
+
+}
+}        
+
+        
+
+        
+    

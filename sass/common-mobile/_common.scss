@@ -1,0 +1,142 @@
+                  
+ body {
+    color: $secondary-color;
+    background-color: $primary-white-color;
+    font-family: $font-text;
+    font-style: normal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* hiden mark; reset ul */
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;    
+}
+
+/* reset (h, p) */
+
+.reset {
+    margin-top: 0;
+}
+
+    /* temporary hide */
+
+.invisible {
+    display: none;
+}
+
+/* main-div */ 
+
+.container {
+    // max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+    // @media screen and (max-width: 767px) {
+    // max-width: 480px;
+    // }
+
+
+    @media screen and (min-width: 480px) {
+             width: 480px;        
+    }
+
+    @media screen and (min-width: 768px) {
+              width: 768px;        
+               
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px; 
+    }
+
+    outline: 2px solid tomato;
+}
+
+  
+
+.section {
+    // min-width: 480px;
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 94px; 
+    }
+    
+    // @media screen and (min-width: $mobile) {
+    //     width: $mobile;        
+    // }
+
+    
+    // @media screen and (min-width: 768px) {
+    //     width: auto;        
+    // }
+
+    
+
+    // @media screen and (min-width: $desktop) {
+    //     width: $desktop; 
+    // }    
+    
+    outline: 2px solid tomato;
+}
+                  /* main - section */
+
+                     /* h2 */
+
+.section-title {
+    margin-bottom: 50px;
+                    
+    color: $title-color;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.activity-title {
+
+    @media screen and (max-width: 1199px) {
+        display: none; 
+    }
+
+    @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+            
+    color: $title-color;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+ }}
+                    
+                     /* h3  */
+.title {
+    margin-bottom: 10px;
+                    
+    color: $title-color;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        text-align: left;
+        
+    }
+}
