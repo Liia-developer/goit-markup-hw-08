@@ -60,6 +60,8 @@
             
          display: flex;
          flex-wrap: wrap;
+
+         margin: -15px;
          // justify-content: center;
         //  padding: 1px;
        
@@ -74,6 +76,11 @@
                 //  margin-left: auto;
                 margin-top: 0px;
                 max-height: 422px;
+                @media screen and (max-width: 1199px) {
+                width: calc((100% - 2 * 30px) / 2);
+                margin: 15px;
+                }
+
              }
              &-foto {
              max-height: 260px;
@@ -128,18 +135,23 @@
 
 .social-first {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+        
     margin-top: 0px;
     margin-left: 122px;
     padding-bottom: 15px;
     margin-right: 122px; 
     
     @media screen and (min-width: 768px) {
-        margin-top: 16px;
-        margin-left: 32px;
-        margin-bottom: 24px;
-        margin-right: 32px; 
-        padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 16px;
+    margin-left: 32px;
+    margin-bottom: 24px;
+    margin-right: 32px; 
+    padding-bottom: 0px;
     }
 
 }

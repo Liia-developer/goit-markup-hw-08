@@ -6,6 +6,10 @@
     font-style: normal;
 }
 
+footer {    
+    background-color: #2F303A;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -40,12 +44,6 @@ img {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    
-  
-    // @media screen and (max-width: 767px) {
-    // max-width: 480px;
-    // }
-
 
     @media screen and (min-width: 480px) {
              width: 480px;        
@@ -60,7 +58,7 @@ img {
         width: 1200px; 
     }
 
-    outline: 2px solid tomato;
+    // outline: 2px solid tomato;
 }
 
   
@@ -72,23 +70,8 @@ img {
     @media screen and (min-width: 1200px) {
         margin-bottom: 94px; 
     }
-    
-    // @media screen and (min-width: $mobile) {
-    //     width: $mobile;        
-    // }
-
-    
-    // @media screen and (min-width: 768px) {
-    //     width: auto;        
-    // }
-
-    
-
-    // @media screen and (min-width: $desktop) {
-    //     width: $desktop; 
-    // }    
-    
-    outline: 2px solid tomato;
+        
+    // outline: 2px solid tomato;
 }
                   /* main - section */
 

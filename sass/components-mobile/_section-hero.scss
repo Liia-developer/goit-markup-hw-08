@@ -2,7 +2,9 @@
        /* section - service order */
        
 .hero {
+    
     margin-bottom: 60px;
+   
    
     &-background {
         display: flex;
@@ -134,16 +136,22 @@
     @media screen and (min-width: 1200px) {
     margin-bottom: 94px;
 
+
+
     &-background {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 
     height: 600px;
     max-width: 1600px;
+    
+    
                            
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
                                        
     background-image: linear-gradient(
         to right,
